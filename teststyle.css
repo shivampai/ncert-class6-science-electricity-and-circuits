@@ -1,0 +1,103 @@
+#submit {
+	background-color:rebeccapurple;
+	color: white;
+	border-width: 2px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 75px;
+    cursor: pointer;
+}
+.font-roboto {
+	font-family: 'Roboto' , sans-serif;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width:9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+.line {
+	background-color: black;
+	height: 2px;
+	width: 95%;
+	margin: 1%
+}
+.h3 {
+	text-align: center;
+}
+body {
+	background-color: #a09cd0;
+	text-align: center;
+}
+.qlabel {
+	font-family: 'Poppins' , sans-serif;
+	font-size: 20px;
+} 
+.optiontext {
+	font-family: 'Poppins' , sans-serif;
+}
+.option {
+	width: 17px;
+	margin-right: 10px;
+	height: 17px;
+	background-color: mediumpurple;
+	cursor: pointer;
+}
+#result {
+	font-size:30px;
+	font-family: 'Roboto' , sans-serif;
+	color: black;
+	margin-top: 50px;
+}
+#sa {
+	background-color:blue;
+	color: white;
+	border-color: blue;
+	border-width: 1px;
+	width: 150px;
+	height: 35px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#sa:hover {
+	background-color:white;
+	color: blue;
+	box-shadow: 1px 1px 1px 1px skyblue;
+}
+#resultpercent {
+	font-size:30px;
+	font-family: 'Roboto' , sans-serif;
+	color: black;
+}
+.question {
+	width: 50%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: left;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-radius: 5px;
+	background-color: white;
+	 
+}

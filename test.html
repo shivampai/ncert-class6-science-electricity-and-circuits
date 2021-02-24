@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>The Human Skeleton Test</title>
+				<link rel="stylesheet" href="teststyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://firebasestorage.googleapis.com/v0/b/shiveshplayshare.appspot.com/o/styleradiobutton.css?alt=media&token=6cce9f98-6954-42a7-bf6a-8ca11da80430" rel="stylesheet">
+	<link href="https://upload.wikimedia.org/wikipedia/commons/1/11/Blue_question_mark_icon.svg" rel="icon">
+</head>
+
+<body>
+				<script src="test.js"></script>
+	<div class="main">
+		<section id="main">
+	<section class="question">
+	<label class="qlabel">Q1. Electric cell is source of electrical energy . It supplies electrical energy by _______ current.</label><br>
+		<br>
+		<input type="radio" class="option"  name="1"><label class="optiontext">1. Stoped</label><br>
+		<br>
+		<input type="radio" class="option" id="c1"  name="1"><label id="c1text" class="optiontext">2. Flowing</label><br>
+		<br>
+		<input type="radio" class="option" name="1"><label class="optiontext">Both A & B</label><br>
+		<br>
+		<input type="radio" class="option"  name="1"><label class="optiontext">None of the above</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q2. Filament of a bulb is made up of _______.</label><br>
+		<br>
+		<input type="radio" class="option"  name="2"><label class="optiontext">1. Silver</label><br>
+		<br>
+		<input type="radio" class="option"  name="2"><label class="optiontext">2. Aluminium</label><br>
+		<br>
+		<input type="radio" class="option" name="2"><label class="optiontext">3. Gold</label><br>
+		<br>
+		<input type="radio" class="option"  name="2" id="c2"><label class="optiontext" id="c2text">4. None Of the Above</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q3. Who Made The First Electrical Bulb?</label><br>
+		<br>
+		<input type="radio" class="option"  name="3" id="c3"><label class="optiontext" id="c3text">1. Thomas Alva Edison</label><br>
+		<br>
+		<input type="radio" class="option"  name="3"><label class="optiontext">2. Albert Einstein</label><br>
+		<br>
+		<input type="radio" id="c3" class="option"  name="3"><label class="optiontext" id="c3text">3. Isaac Newton</label><br>
+		<br>
+		<input type="radio" class="option"  name="3"><label class="optiontext">4. Homi J. Bhabha</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q4. Bulb Converts _______ energy to _______ & _______ energy?</label><br>
+		<br>
+		<input type="radio" class="option"  name="4" id="c4"><label class="optiontext" id="c4text">1. Electrical , Light & Heat</label><br>
+		<br>
+		<input type="radio" class="option"  name="4"><label class="optiontext">2. Wind , Light & heat</label><br>
+		<br>
+		<input type="radio" class="option"  name="4"><label class="optiontext">3. Electrical , Solar & Wind</label><br>
+		<br>
+		<input type="radio" class="option"  name="4"><label class="optiontext">4. Kinetic , Light & Heat</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q5. In which Path does current flow?</label><br>
+		<br>
+		<input type="radio" class="option" name="5"><label class="optiontext">1. Curved</label><br>
+		<br>
+		<input type="radio" class="option" name="5"><label class="optiontext">2. Circular</label><br>
+		<br>
+		<input id="c5" type="radio" class="option" id="c5" name="5"><label class="optiontext" id="c5text">3. Straight</label><br>
+		<br>
+		<input type="radio" class="option" name="5"><label class="optiontext">4. None of the Above</label>
+	</section>
+		<button id="submit" onclick="getresult()">Submit</button><br>
+		</section>
+			<section id="hidden" style="display: none;">
+				<section class="question">
+	<label id="result"></label><br>
+	<label id="resultpercent"></label><br>
+				<button onclick="sa()" id="sa">Show Answers</button>
+				</section>
+				</section>
+	</div>
+</body>
+</html>
